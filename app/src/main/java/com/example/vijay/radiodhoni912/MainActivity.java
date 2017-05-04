@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.nav_gallery) {
+            Intent i = new Intent(getApplicationContext(), OwnerProfile.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_slideshow) {
 
