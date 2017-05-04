@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_Radio"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_radio_black_24dp"
             android:title="Radio" />
         <item
             android:id="@+id/nav_gallery"
@@ -12,7 +12,7 @@
             android:title="Gallery" />
         <item
             android:id="@+id/nav_owner"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_person_black_24dp"
             android:title="Owner's Profile" />
 
     </group>
@@ -21,11 +21,11 @@
         <menu>
             <item
                 android:id="@+id/nav_fb_page"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/ic_pages_black_24dp"
                 android:title="Facebook Page" />
             <item
                 android:id="@+id/nav_feedback"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_feedback_black_24dp"
                 android:title="Send" />
         </menu>
     </item>
