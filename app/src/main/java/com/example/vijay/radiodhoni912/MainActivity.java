@@ -107,6 +107,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(facebookIntent);
 
         } else if (id == R.id.nav_feedback) {
+            Intent i = new Intent(getApplicationContext(), Feedback.class);
+            startActivity(i);
 
         }
 

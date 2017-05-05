@@ -35,7 +35,8 @@
             android:name=".Radio"
             android:hardwareAccelerated="false" />
         <activity android:name=".OwnerProfile" />
-        <activity android:name=".Gallery"></activity>
+        <activity android:name=".Gallery" />
+        <activity android:name=".Feedback"></activity>
     </application>
 
 </manifest>
